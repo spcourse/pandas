@@ -7,7 +7,8 @@ manipulate and analyze data. By understanding Numpy's array operations, masking,
 indexing, and broadcasting, you can better understand how Pandas works and
 leverage its capabilities.
 
-Download the Jupyter notebook on Numpy [here](data/numpy.ipynb).
+Download the Jupyter notebook on Numpy [here](data/numpy.ipynb). (Right-click
+>> Save Link As >> Type: All Files)
 
 *Make sure to do this introduction first, as it will cover things needed both for
 ML1 and PDP later in the module.*
