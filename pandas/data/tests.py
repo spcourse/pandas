@@ -210,7 +210,7 @@ def test_15(detailed:pd.DataFrame) -> None:
 
     # Another approach: using a mapping to aggregate
     except AssertionError:
-        other = get_df().groupby(by='Category')['Price'].agg({'Price':['count', 'max', 'mean', 'min']})
+        other = get_df().groupby(by='Category').agg({'Price':['count', 'max', 'mean', 'min']})
 
         # Order doesnt matter -> use a set to compare columns and indices
         assert set(other.columns) == set(detailed.columns), "❌ `detailed` does not have the right columns"
