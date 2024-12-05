@@ -1,6 +1,6 @@
 # Pandas
 
-This exercise relies heavily on Pandas. All the data that you will access will be stored and manipulated using Pandas. This will require some concepts that you haven't seen before. You will need to improve your Pandas skills further.
+This exercise relies heavily on Pandas. All the data that you will use will be stored and manipulated using Pandas. This will require some concepts that you haven't seen before. You will need to improve your Pandas skills further.
 
 ## Download assignment
 
