@@ -1,0 +1,22 @@
+# Editor and interpreter artefacts. None of this is course material, and everything in
+# this repo is pulled into the website build -- a committed checkpoint file becomes a
+# published file.
+#
+# ⚠️ Nothing here may match notebooks-dp/data/. Those CSVs and tests.py ARE the
+# deliverable: the released notebooks fetch them from
+# raw.githubusercontent.com/spcourse/pandas/main/notebooks-dp/data/ at run time, so a
+# rule that quietly excluded them would break every notebook in students' hands.
+# See DATA.md in the `solutions` repo (solutions/pandas/DATA.md).
+
+# Jupyter autosaves, one per notebook or markdown file that has been opened.
+.ipynb_checkpoints/
+
+# JupyterLab writes these when the language server is active.
+.virtual_documents/
+
+# Left behind whenever a tests.py in this repo gets imported.
+__pycache__/
+*.py[cod]
+
+# macOS.
+.DS_Store
