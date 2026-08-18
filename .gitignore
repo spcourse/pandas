@@ -2,9 +2,9 @@
 # this repo is pulled into the website build -- a committed checkpoint file becomes a
 # published file.
 #
-# ⚠️ Nothing here may match notebooks-dp/data/. Those CSVs and tests.py ARE the
+# ⚠️ Nothing here may match pandas-dp/data/. Those CSVs and tests.py ARE the
 # deliverable: the released notebooks fetch them from
-# raw.githubusercontent.com/spcourse/pandas/main/notebooks-dp/data/ at run time, so a
+# raw.githubusercontent.com/spcourse/pandas/main/pandas-dp/data/ at run time, so a
 # rule that quietly excluded them would break every notebook in students' hands.
 # See DATA.md in the `solutions` repo (solutions/pandas/DATA.md).
 
