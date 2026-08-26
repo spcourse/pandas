@@ -65,3 +65,11 @@ Note that `combine_data()` does not need to clean anything up. Each `read_..._da
 After that, use Plotly Express to visualize the data.
 
 Tip: If you create the star DataFrame correctly and combine the animal and star data correctly, visualization should be very straightforward.
+
+## checkpy
+
+Test your work with:
+
+    checkpy xkcd
+
+**Not everything will pass yet.** `checkpy` always runs the tests for the whole assignment. After this part only *Particles: read_pdg_data() exists* should still be failing — it belongs to the next part. Everything starting with **Animals:**, **Stars:**, **Combining:** and **Plot:** should pass.

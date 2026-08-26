@@ -33,7 +33,7 @@ Pandas DataFrames.
 
 Have a look at this demo to get started. Copy the demo into `xkcd.py` and run it. It operates on a DataFrame with some mock data, to give you an idea of how to use plotly for this assignment. Pay attention to the `hover_name` argument: it allows you to hover over a point to show the name. Also note that you can click in the legend to hide and show specific categories.
 
-```python
+```
 import pandas as pd
 import plotly.express as px
 
@@ -98,3 +98,11 @@ Tip 2: Don't write one monolithic function, but think about how you can divide t
 After that, use Plotly Express to visualize the data.
 
 Tip: If you create the DataFrame correctly, visualization should be pretty straightforward (you can rely on the plotly example from before).
+
+## checkpy
+
+Test your work with:
+
+    checkpy xkcd
+
+**Not everything will pass yet.** `checkpy` always runs the tests for the whole assignment, so the tests for the parts you haven't written yet will fail. After this part, *Stars: read_star_data() exists*, *Particles: read_pdg_data() exists* and *Combining: combine_data() exists* should still be failing — they belong to the next parts. Everything starting with **Animals:** and **Plot:** should pass.

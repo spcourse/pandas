@@ -50,9 +50,9 @@ You can check if you did the conversion right using the lifetime of a neutron. I
 
 ## Why do so many particles have the same name?
 
-Look at the name column and you'll notice the same names appearing more than once. This is because most particles come in several charge states. The pion, for example, comes as π⁺, π⁻ and π⁰. All of them are pions.
+Look at the name column and you'll notice the same names appearing more than once. This is because most particles come in several *charge states*. The pion, for example, comes as π⁺, π⁻ and π⁰. All of them are pions.
 
-You don't need to understand what the charge state means, but you do need to know this consequence: **different charges can give radically different lifetimes**. For example, π⁺ lives for 2.6 × 10⁻⁸ s and π⁰ lives for 8.4 × 10⁻¹⁷ s, differing by a factor of three hundred million! So that matters a lot for this plot.
+You don't need to understand what the charge state means, but you do need to know this consequence: different charges can give radically different lifetimes. For example, π⁺ lives for 2.6 × 10⁻⁸ s and π⁰ lives for 8.4 × 10⁻¹⁷ s, differing by a factor of three hundred million! So that matters a lot for this plot.
 
 So, just the particle name on its own does not identify a particle, for this purpose. The charge is an essential part of the "name".
 
@@ -89,3 +89,11 @@ Use the function `combine_data(dfs)` that you wrote previously to combine all th
 ### Visualize
 
 After that, use Plotly Express to visualize the data.
+
+## checkpy
+
+Test your work with:
+
+    checkpy xkcd
+
+This is the last part with tests, so **everything should pass now**. If you skipped one of the earlier parts, the tests for that part will still be failing.
