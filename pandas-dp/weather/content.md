@@ -18,13 +18,11 @@ Keep in mind that temperatures are given in tenths of degrees (`185` means 18.5 
 
 Start by defining the `import` statements and the `MIN_FILE` and `MAX_FILE` constants:
 
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-
-MIN_FILE = "DeBiltTempMinOLD.txt"
-MAX_FILE = "DeBiltTempMaxOLD.txt"
-```
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    
+    MIN_FILE = "DeBiltTempMinOLD.txt"
+    MAX_FILE = "DeBiltTempMaxOLD.txt"
 
 ## Step 1, Read the data
 
@@ -35,10 +33,8 @@ Write a function `read_temperatures(filename)` that reads one file and returns a
 
 Read both DataFrames:
 
-```python
-min_temperatures = read_temperatures(MIN_FILE)
-max_temperatures = read_temperatures(MAX_FILE)
-```
+    min_temperatures = read_temperatures(MIN_FILE)
+    max_temperatures = read_temperatures(MAX_FILE)
 
 ## Step 2, Check what you read
 
@@ -68,31 +64,29 @@ If there are issue, go back to `read_temperatures` and keep fixing it until your
 
 For `DeBiltTempMaxOLD.txt`:
 
-```
-   STAID   SOUID       DATE  TX  Q_TX  TEMP
-0    162  100522 1901-01-01 -31     0  -3.1
-1    162  100522 1901-01-02 -13     0  -1.3
-2    162  100522 1901-01-03  -5     0  -0.5
-
-shape: (41850, 6)
-
-STAID             int64
-SOUID             int64
-DATE     datetime64[us]
-TX                int64
-Q_TX              int64
-TEMP            float64
-
-               TEMP                 DATE
-count  41850.000000                41850
-mean      13.634662  1958-04-16 12:00:00
-min      -11.300000  1901-01-01 00:00:00
-25%        8.100000  1929-08-24 06:00:00
-50%       13.700000  1958-04-16 12:00:00
-75%       19.200000  1986-12-07 18:00:00
-max       36.800000  2015-07-31 00:00:00
-std        7.396169                  NaN
-```
+       STAID   SOUID       DATE  TX  Q_TX  TEMP
+    0    162  100522 1901-01-01 -31     0  -3.1
+    1    162  100522 1901-01-02 -13     0  -1.3
+    2    162  100522 1901-01-03  -5     0  -0.5
+    
+    shape: (41850, 6)
+    
+    STAID             int64
+    SOUID             int64
+    DATE     datetime64[us]
+    TX                int64
+    Q_TX              int64
+    TEMP            float64
+    
+                   TEMP                 DATE
+    count  41850.000000                41850
+    mean      13.634662  1958-04-16 12:00:00
+    min      -11.300000  1901-01-01 00:00:00
+    25%        8.100000  1929-08-24 06:00:00
+    50%       13.700000  1958-04-16 12:00:00
+    75%       19.200000  1986-12-07 18:00:00
+    max       36.800000  2015-07-31 00:00:00
+    std        7.396169                  NaN
 
 ## Step 4, The highest and lowest temperature
 
@@ -117,12 +111,10 @@ Count the summer days and the tropical days per year in the DataFrame with a `is
 
 > Hint: Use `plt.bar()` rather than `df.plot(kind="bar")`. It gives nicer plots in this particular case.
 >
-> ```python
-> plt.bar(per_year.index, per_year["is_summer"], label="summer days (>= 25 C)")
-> ```
+>     plt.bar(per_year.index, per_year["is_summer"], label="summer days (>= 25 C)")
 
 Because every tropical day is also a summer day, you can draw the two on top of each other, but do not stack them. Stacked, a it will look like there are more summer days than there are in reality.
 
 ## Check your work
 
-checkpy weather-pandas
+    checkpy weather-pandas
