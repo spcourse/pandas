@@ -33,26 +33,24 @@ Pandas DataFrames.
 
 Have a look at this demo to get started. Copy the demo into `xkcd.py` and run it. It operates on a DataFrame with some mock data, to give you an idea of how to use plotly for this assignment. Pay attention to the `hover_name` argument: it allows you to hover over a point to show the name. Also note that you can click in the legend to hide and show specific categories.
 
-```
-import pandas as pd
-import plotly.express as px
-
-df = pd.DataFrame({
-    "name":        ["mayfly", "human", "Sun", "Sirius A", "muon", "Earth", "Ganymede"],
-    "mass_kg":     [2e-5, 70, 2.0e30, 4.1e30, 1.9e-28, 6.0e24, 1.5e23],
-    "lifespan_yr": [0.003, 122, 1.0e10, 1.6e9, 7.0e-14, 1e10, 1e10],
-    "category":    ["animal", "animal", "star", "star", "particle", "planet", "moon"]
-})
-
-fig = px.scatter(df, x="mass_kg", y="lifespan_yr", color="category", symbol="category",
-                 hover_name="name", log_x=True, log_y=True, title="Size and Lifespan",
-                 labels={"mass_kg": "size (kg)", "lifespan_yr": "lifespan (years)"})
-
-fig.update_layout(xaxis_exponentformat="power", yaxis_exponentformat="power")
-fig.update_traces(marker_size=10)
-
-fig.show()
-```
+    import pandas as pd
+    import plotly.express as px
+    
+    df = pd.DataFrame({
+        "name":        ["mayfly", "human", "Sun", "Sirius A", "muon", "Earth", "Ganymede"],
+        "mass_kg":     [2e-5, 70, 2.0e30, 4.1e30, 1.9e-28, 6.0e24, 1.5e23],
+        "lifespan_yr": [0.003, 122, 1.0e10, 1.6e9, 7.0e-14, 1e10, 1e10],
+        "category":    ["animal", "animal", "star", "star", "particle", "planet", "moon"]
+    })
+    
+    fig = px.scatter(df, x="mass_kg", y="lifespan_yr", color="category", symbol="category",
+                    hover_name="name", log_x=True, log_y=True, title="Size and Lifespan",
+                    labels={"mass_kg": "size (kg)", "lifespan_yr": "lifespan (years)"})
+    
+    fig.update_layout(xaxis_exponentformat="power", yaxis_exponentformat="power")
+    fig.update_traces(marker_size=10)
+    
+    fig.show()
 
 A few more details to note:
 
