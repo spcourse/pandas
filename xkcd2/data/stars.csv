@@ -1,0 +1,55 @@
+# Size and Lifespan -- step 2: stars
+#
+# Mass of a selection of stars, by scientific designation.
+#
+# WARNING  This table was put together for this exercise from scattered published
+#          values. It is not a catalogue and it is not a citable source. There is no
+#          single published catalogue of stellar masses, and none at all of stellar
+#          lifespans -- a lifespan is calculated from the mass, never measured.
+#
+# FORMAT   semicolon-separated, one header row. Decimal comma. Lines starting with #
+#          are comments.
+#
+# COLUMNS
+#   designation     the star's scientific designation
+#   mass_solar      mass, in solar masses (1 solar mass = 1.989e30 kg)
+#   spectral_type   spectral class and luminosity class
+#   main_sequence   yes if the star is still burning hydrogen in its core, no if it has
+#                   already evolved off the main sequence into a giant or supergiant
+#
+# Most of these stars also have a common name. Those are in star-names.csv.
+designation;mass_solar;spectral_type;main_sequence
+Sol;1,0;G2V;yes
+Alpha Canis Majoris A;2,06;A1V;yes
+Alpha Carinae;8,0;A9II;no
+Alpha Bootis;1,08;K1.5III;no
+Alpha Lyrae;2,14;A0V;yes
+Alpha Aurigae A;2,57;G8III;no
+Beta Orionis;21,0;B8Ia;no
+Alpha Canis Minoris A;1,5;F5IV-V;yes
+Alpha Orionis;16,5;M1-2Ia-ab;no
+Alpha Eridani;6,7;B6Vep;yes
+Alpha Aquilae;1,79;A7V;yes
+Alpha Tauri;1,16;K5III;no
+Alpha Scorpii A;12,0;M1.5Iab;no
+Alpha Virginis A;11,43;B1III-IV;no
+Beta Geminorum;1,91;K0III;no
+Alpha Piscis Austrini;1,92;A3V;yes
+Alpha Cygni;19,0;A2Ia;no
+Alpha Leonis A;3,8;B8IVn;no
+Gamma Orionis;8,6;B2V;yes
+Epsilon Orionis;30,0;B0Ia;no
+Alpha Ursae Minoris Aa;5,4;F7Ib;no
+Alpha Centauri A;1,1;G2V;yes
+Alpha Centauri C;0,122;M5.5V;yes
+Alpha Ursae Majoris A;4,25;K0III;no
+Beta Persei A;3,17;B8V;yes
+Alpha Hydrae;3,0;K3II-III;no
+Tau Ceti;0,783;G8V;yes
+61 Cygni A;0,7;K5V;yes
+Barnard's Star;0,144;M4V;yes
+Wolf 359;0,09;M6V;yes
+Lalande 21185;0,39;M2V;yes
+Lacaille 9352;0,486;M0.5V;yes
+Groombridge 34 A;0,4;M1.5V;yes
+Kapteyn's Star;0,281;sdM1;yes

@@ -1,0 +1,224 @@
+# Size and Lifespan -- step 1: animals
+#
+# Maximum lifespan and adult body mass for a selection of animals (plus, as it turns out,
+# a few things that are not animals).
+#
+# SOURCE   AnAge, the Animal Ageing and Longevity Database, build 15 (3 July 2023),
+#          part of the Human Ageing Genomic Resources.
+#          https://genomics.senescence.info/species/
+# CITATION Tacutu R. et al. (2018) Human Ageing Genomic Resources: new and updated
+#          databases. Nucleic Acids Research 46(D1):D1083-D1090.
+#
+# This is an extract of 194 rows from the full 4645-row database, prepared for the
+# course. The values come from AnAge; the selection does not.
+#
+# FORMAT   tab-separated, one header row, 11 columns. Lines starting with # are
+#          comments.
+#
+# COLUMNS
+#   HAGRID                    numeric identifier of the species in the database
+#   Kingdom, Class            taxonomy
+#   Genus, Species            the scientific name, split over two columns
+#   Common name               the everyday name, where one exists
+#   Adult weight (g)          typical mass of an adult, in grams
+#   Body mass (g)             mass of an adult, in grams
+#   Maximum longevity (yrs)   the greatest age recorded for the species, in years
+#   Specimen origin           whether the record comes from a wild or captive animal
+#   Data quality              the database's own assessment of the record
+#
+# An empty field means the database has no value for it.
+HAGRID	Kingdom	Class	Genus	Species	Common name	Adult weight (g)	Body mass (g)	Maximum longevity (yrs)	Specimen origin	Data quality
+4651	Animalia	Cephalopoda	Sepia	officinalis	Common cuttlefish				unknown	low
+2861	Animalia	Mammalia	Galea	musteloides	Common yellow-toothed cavy	337.9	322	3.5	captivity	acceptable
+2956	Animalia	Mammalia	Jaculus	jaculus	Lesser Egyptian jerboa	55	75	7.3	captivity	acceptable
+1870	Animalia	Chondrostei	Acipenser	schrenckii	Amur sturgeon	104,500		60	wild	acceptable
+3400	Animalia	Reptilia	Trimorphodon	biscutatus	Western lyresnake	682		11.8	captivity	acceptable
+3800	Animalia	Teleostei	Anguilla	rostrata	  American eel 	4.0315k		50	captivity	acceptable
+3921	Animalia	Teleostei	Cyprinella	lutrensis	Red shiner			2	wild	acceptable
+1747	Animalia	Chondrichthyes	Carcharhinus	acronotus	Blacknose shark	10,395		19	wild	acceptable
+1800	Animalia	Chondrichthyes	Lamna	nasus	Porbeagle	126,500		30	wild	acceptable
+2518	Animalia	Mammalia	Dendrolagus	ursinus	Black tree kangaroo	8k		20	captivity	acceptable
+4257	Animalia	Teleostei	Betta	splendens	Siamese fighting fish			2	unknown	acceptable
+4669	Fungi	Saccharomycetes	Saccharomyces	cerevisiae	Baker's yeast			0.04	captivity	acceptable
+24	Animalia	Insecta	Carausius	morosus	Indian stick insect				unknown	low
+3764	Animalia	Reptilia	Aldabrachelys	gigantea	Aldabra tortoise	117,200		152	captivity	acceptable
+2073	Animalia	Mammalia	Canis	familiaris	Domestic dog	40,000		27	captivity	acceptable
+4478	Animalia	Teleostei	Stenodus	leucichthys	Inconnu	22,000		22	wild	acceptable
+2	Monera	Gammaproteobacteria	Escherichia	coli	Escherichia coli			0.01	captivity	acceptable
+3113	Animalia	Mammalia	Ammospermophilus	leucurus	White-tailed antelope squirrel	105	94.1	11.2	captivity	acceptable
+2330	Animalia	Mammalia	Miniopterus	schreibersii	Schreibers's long-fingered bat	13	10.9	22	wild	acceptable
+1790	Animalia	Chondrichthyes	Chimaera	monstrosa	Rabbitfish	1.375k		29.4	wild	acceptable
+1037	Animalia	Aves	Margarops	fuscatus	Pearly-eyed thrasher	98.6		17	wild	acceptable
+2635	Animalia	Mammalia	Macrotis	lagotis	Rabbit-bandicoot, or Bilby	1.3k	1245.5	9.6	captivity	acceptable
+1885	Animalia	Holostei	Lepisosteus	osseus	Longnose gar	12,540		36	wild	acceptable
+2271	Animalia	Mammalia	Viverra	tangalunga	Malayan civet	7.35k		15	captivity	questionable
+3769	Animalia	Reptilia	Chelonoidis	nigra	  Galapagos tortoise 			177	captivity	acceptable
+1988	Animalia	Mammalia	Redunca	arundinum	Southern reedbuck	58,000		16.8	captivity	acceptable
+3710	Animalia	Reptilia	Terrapene	carolina	Eastern box turtle	372		138	wild	acceptable
+1672	Animalia	Aves	Spheniscus	humboldti	Humboldt penguin	4.379k			unknown	low
+2614	Animalia	Mammalia	Elephantulus	intufi	Bushveld elephant shrew, or Long-eared elephant shrew	52	46.5	9.3	captivity	acceptable
+4307	Animalia	Teleostei	Percina	phoxocephala	Slenderhead darter			3	wild	acceptable
+4631	Animalia	Bivalvia	Arctica	islandica	Ocean quahog clam			507	wild	acceptable
+3372	Animalia	Reptilia	Natrix	natrix	European grass snake	96.25	94.2	20	captivity	acceptable
+3240	Animalia	Mammalia	Scalopus	aquaticus	Eastern mole	90	48	6.2	wild	acceptable
+84	Animalia	Amphibia	Pseudacris	crucifer	Spring peeper	4	0.9		unknown	low
+1192	Animalia	Aves	Spizella	passerina	Chipping sparrow	12.2	11.9	11.8	wild	acceptable
+160	Animalia	Amphibia	Desmognathus	quadramaculatus	Black-bellied salamander	14.34	14.1	15	captivity	acceptable
+2189	Animalia	Mammalia	Meles	meles	European badger, or Old World badger	13,000	11050	18.6	captivity	acceptable
+2172	Animalia	Mammalia	Galictis	cuja	Lesser grison	1k		10.2	captivity	acceptable
+3217	Animalia	Mammalia	Cryptotis	parva	  Least shrew 	4.5	6.3	3.5	captivity	acceptable
+2470	Animalia	Mammalia	Planigale	maculata	Pygmy planigale	10	10.6	5.8	captivity	acceptable
+1872	Animalia	Chondrostei	Acipenser	sturio	European sturgeon	220,000		100	wild	acceptable
+2848	Animalia	Mammalia	Heterocephalus	glaber	Naked mole-rat	35	35.3	31	captivity	high
+758	Animalia	Aves	Acrocephalus	melanopogon	  Moustached warbler 	10.9		11.2	wild	acceptable
+3398	Animalia	Reptilia	Thamnophis	sauritus	Eastern ribbonsnake	407		10.6	captivity	acceptable
+1864	Animalia	Chondrostei	Acipenser	brevirostrum	Shortnose sturgeon	9.325k		67	wild	acceptable
+4002	Animalia	Teleostei	Fundulus	zebrinus	Plains killifish			3	wild	acceptable
+3466	Animalia	Reptilia	Coleonyx	elegans	Mexican banded gecko	11.2		11	captivity	questionable
+3512	Animalia	Reptilia	Sceloporus	undulatus	Fence lizard	8.255			unknown	low
+1797	Animalia	Chondrichthyes	Carcharodon	carcharias	  Great white shark 	1.87M		50	wild	acceptable
+4255	Animalia	Teleostei	Pleuragramma	antarcticum	Antarctic silverfish	110		20	wild	acceptable
+3632	Animalia	Reptilia	Crotalus	pricei	Twin-spotted rattlesnake	104		15.7	captivity	acceptable
+1771	Animalia	Chondrichthyes	Triaenodon	obesus	Whitetip reef shark	10,065		25	wild	acceptable
+4486	Animalia	Teleostei	Cottus	cognatus	Slimy sculpin			7	wild	acceptable
+2282	Animalia	Mammalia	Balaenoptera	physalus	Fin whale	70M		114	wild	acceptable
+2109	Animalia	Mammalia	Felis	catus	Domestic cat	3.9k		30	captivity	questionable
+1787	Animalia	Chondrichthyes	Triakis	semifasciata	Leopard shark	10,110		30	wild	acceptable
+1591	Animalia	Aves	Myiopsitta	monachus	Monk parakeet	81.7	80.4	22.1	captivity	acceptable
+1745	Animalia	Cephalaspidomorphi	Petromyzon	marinus	Sea lamprey	1.375k		9	wild	acceptable
+1767	Animalia	Chondrichthyes	Rhizoprionodon	acutus	Milk shark	2.75k		8	wild	acceptable
+2471	Animalia	Mammalia	Planigale	tenuirostris	Narrow-nosed planigale	5.3	7.1	5.2	captivity	acceptable
+3640	Animalia	Reptilia	Daboia	russelii	Russell's viper	1.306k		15	captivity	acceptable
+1305	Animalia	Aves	Turdus	pilaris	Fieldfare	106		18.1	wild	acceptable
+2273	Animalia	Mammalia	Viverricula	indica	Small Indian civet	3k			unknown	low
+3976	Animalia	Teleostei	Pteronotropis	hubbsi	Bluehead shiner			2	wild	acceptable
+1682	Animalia	Aves	Bubo	scandiacus	Snowy owl	2.0425k	2026	28	captivity	acceptable
+3782	Animalia	Reptilia	Testudo	graeca	Mediterranean spur-thighed tortoise	1.43k		127	captivity	acceptable
+903	Animalia	Aves	Linaria	cannabina	Eurasian linnet	19.5		9.4	wild	acceptable
+2188	Animalia	Mammalia	Martes	zibellina	Sable	1.0667k		18.4	captivity	acceptable
+1853	Animalia	Chondrichthyes	Somniosus	microcephalus	Greenland shark			392	wild	acceptable
+4084	Animalia	Teleostei	Plecoglossus	altivelis	  Ayu 			3	unknown	acceptable
+64	Animalia	Amphibia	Dendrobates	tinctorius	Blue poison-dart frog				unknown	low
+1738	Animalia	Cephalaspidomorphi	Lampetra	fluviatilis	European river lamprey	82.5		10	wild	acceptable
+3863	Animalia	Teleostei	Catostomus	catostomus	Longnose sucker	1.8k		20	wild	acceptable
+1890	Animalia	Mammalia	Hemicentetes	semispinosus	Streaked tenrec	180	116.4	2.7	captivity	questionable
+4329	Animalia	Teleostei	Pomatomus	saltatrix	Bluefish	7.92k		9	wild	acceptable
+3165	Animalia	Mammalia	Sciurus	griseus	Western gray squirrel	425			unknown	low
+1844	Animalia	Chondrichthyes	Rhinobatos	productus	Shovelnose guitarfish	5.3625k		16	wild	acceptable
+2564	Animalia	Mammalia	Phascolarctos	cinereus	Koala	9.3k	4732.4	22.1	captivity	high
+1063	Animalia	Aves	Erithacus	rubecula	European robin	17.3	17.6	19.3	wild	acceptable
+4419	Animalia	Teleostei	Atheresthes	stomias	Arrowtooth flounder	1.1k		15	wild	acceptable
+763	Animalia	Aves	Acrocephalus	stentoreus	Clamorous reed warbler, or Indian great reed warbler	24.2		10.6	wild	acceptable
+2317	Animalia	Mammalia	Phocoena	phocoena	Harbor porpoise	52,500	28500	20.4	captivity	acceptable
+3976	Animalia	Teleostei	Pteronotropis	hubbsi	Bluehead shiner			2	wild	acceptable
+2509	Animalia	Mammalia	Burramys	parvus	Mountain pygmy possum	45	44.3	12	unknown	acceptable
+22	Animalia	Insecta	Teleogryllus	commodus	Black field cricket				unknown	low
+2211	Animalia	Mammalia	Arctocephalus	gazella	Antarctic fur seal	84,500			unknown	low
+3473	Animalia	Reptilia	Gehyra	oceanica	Oceanic dtella	7.9		10.5	captivity	acceptable
+55	Animalia	Amphibia	Rhinella	marina	Cane toad	106.25	105	24.8	captivity	acceptable
+4257	Animalia	Teleostei	Betta	splendens	Siamese fighting fish			2	unknown	acceptable
+3772	Animalia	Reptilia	Gopherus	berlandieri	Berlandier's tortoise	1.792k		30.7	captivity	acceptable
+3410	Animalia	Reptilia	Platysaurus	guttatus	Lesser flat lizard	12.2		15.6	captivity	acceptable
+198	Animalia	Amphibia	Salamandra	salamandra	European fire salamander	19.1	19.1	24	captivity	acceptable
+3274	Animalia	Reptilia	Hydrosaurus	pustulatus	Philippine sailfin lizard			15.2	captivity	acceptable
+2468	Animalia	Mammalia	Planigale	gilesi	Paucident planigale	6.9	9.1		unknown	low
+174	Animalia	Amphibia	Plethodon	glutinosus	Northern slimy salamander	4.2	4.2	20.1	captivity	acceptable
+4062	Animalia	Teleostei	Lophius	americanus	Goosefish	12,430		30	wild	acceptable
+2454	Animalia	Mammalia	Antechinus	stuartii	Brown antechinus	27.5	25	5.4	captivity	acceptable
+3525	Animalia	Reptilia	Leiocephalus	carinatus	Northern curly-tailed lizard	30		10.8	captivity	acceptable
+19	Animalia	Insecta	Lasius	niger	Black garden ant			28	unknown	acceptable
+3747	Animalia	Reptilia	Kinosternon	integrum	Mexican mud turtle	474.4		18.5	captivity	acceptable
+1871	Animalia	Chondrostei	Acipenser	stellatus	Star sturgeon	44,000		27	wild	acceptable
+2963	Animalia	Mammalia	Makalata	didelphoides	Red-nosed armored tree-rat	276			unknown	low
+4508	Animalia	Teleostei	Sebastes	brevispinis	Silvergray rockfish	2.5905k		82	wild	acceptable
+3883	Animalia	Teleostei	Moxostoma	anisurum	Silver redhorse	5.94k		10	wild	acceptable
+2608	Animalia	Mammalia	Ochotona	collaris	Collared pika	129			unknown	low
+3055	Animalia	Mammalia	Mesembriomys	macrurus	  Golden-backed tree rat 	268.5		7.1	captivity	acceptable
+2509	Animalia	Mammalia	Burramys	parvus	Mountain pygmy possum	45	44.3	12	unknown	acceptable
+2789	Animalia	Mammalia	Homo	sapiens	Human	62,035	70000	122.5	captivity	high
+4062	Animalia	Teleostei	Lophius	americanus	Goosefish	12,430		30	wild	acceptable
+2873	Animalia	Mammalia	Baiomys	taylori	Northern pygmy mouse	8	7.2	3.3	captivity	acceptable
+794	Animalia	Aves	Pheucticus	melanocephalus	Black-headed grosbeak	42		25	captivity	acceptable
+3820	Animalia	Teleostei	Astyanax	bimaculatus	Twospot astyanax			18	wild	acceptable
+4443	Animalia	Teleostei	Pegusa	impar	Adriatic sole			12	wild	acceptable
+4667	Plantae	Ginkgoopsida	Ginkgo	biloba	Common ginkgo			1000	wild	acceptable
+1873	Animalia	Chondrostei	Acipenser	transmontanus	White sturgeon	448,800		104	wild	acceptable
+3522	Animalia	Reptilia	Psammophis	subtaeniatus	Stripe-belly sand racer	2.381k		5.8	captivity	acceptable
+1867	Animalia	Chondrostei	Acipenser	gueldenstaedtii	Russian sturgeon	63,250		46	wild	acceptable
+2816	Animalia	Mammalia	Varecia	variegata	Black-and-white ruffed lemur, or Ruffed lemur	3.4823k		40	captivity	high
+353	Animalia	Aves	Mergus	serrator	Red-breasted merganser	1.0206k		21.3	wild	acceptable
+2303	Animalia	Mammalia	Tursiops	aduncus	Indo-pacific bottlenose dolphin				unknown	low
+3031	Animalia	Mammalia	Desmodillus	auricularis	Cape short-eared gerbil	54.5	71.9	6.1	captivity	acceptable
+4153	Animalia	Teleostei	Serranochromis	angusticeps	Thinface cichlid	1.375k		9	wild	acceptable
+4469	Animalia	Teleostei	Prosopium	cylindraceum	Round whitefish	1.498k		16	wild	acceptable
+114	Animalia	Amphibia	Lithobates	sylvaticus	Wood frog	7.88	7.8	5	unknown	questionable
+3063	Animalia	Mammalia	Mus	musculus	House mouse	20.5	18	4	captivity	high
+2404	Animalia	Mammalia	Myotis	lucifugus	Little brown bat	10	5.8	34	wild	acceptable
+159	Animalia	Amphibia	Desmognathus	ochrophaeus	Allegheny mountain dusky salamander	0.6		19.8	captivity	acceptable
+1868	Animalia	Chondrostei	Acipenser	oxyrinchus	Atlantic sturgeon	202,400		60	wild	acceptable
+4664	Plantae	Pinopsida	Pinus	longaeva	Great Basin bristlecone pine			5062	wild	acceptable
+3765	Animalia	Reptilia	Astrochelys	radiata	Radiated tortoise	10,217		32.8	captivity	questionable
+1781	Animalia	Chondrichthyes	Mustelus	canis	Dusky smooth-hound	6.71k		16	wild	acceptable
+171	Animalia	Amphibia	Plethodon	cinereus	Eastern red-backed salamander	0.5	0.76	25	wild	acceptable
+1776	Animalia	Chondrichthyes	Furgaleus	macki	Whiskery skark	7.095k		11.5	wild	acceptable
+1591	Animalia	Aves	Myiopsitta	monachus	Monk parakeet	81.7	80.4	22.1	captivity	acceptable
+4199	Animalia	Teleostei	Labrus	merula	Brown wrasse			17	wild	acceptable
+15	Animalia	Insecta	Apis	mellifera	Honey bee			8	unknown	acceptable
+1866	Animalia	Chondrostei	Acipenser	fulvescens	Lake sturgeon	70,000		152	wild	acceptable
+273	Animalia	Aves	Pernis	apivorus	European honey buzzard, or Western honey-buzzard	758	652	29	wild	acceptable
+1160	Animalia	Aves	Setophaga	pinus	Pine warbler	11.8	12	10.2	unknown	acceptable
+3685	Animalia	Reptilia	Eretmochelys	imbricata	Hawksbill	67,000			unknown	low
+133	Animalia	Amphibia	Ambystoma	maculatum	Spotted salamander	12.84	12.8	32	unknown	acceptable
+2791	Animalia	Mammalia	Pan	troglodytes	Chimpanzee	44,984		68	captivity	acceptable
+4500	Animalia	Teleostei	Pterois	volitans	Red firefish			10	wild	acceptable
+3819	Animalia	Teleostei	Micralestes	acutidens	Sharptooth tetra	1.1		3	wild	acceptable
+4603	Animalia	Hydrozoa	Turritopsis	nutricula	  Immortal jellyfish 				unknown	low
+4031	Animalia	Teleostei	Molva	macrophthalma	Mediterranean ling			20	wild	acceptable
+3069	Animalia	Mammalia	Pachyuromys	duprasi	Fat-tailed gerbil	40		8.3	captivity	acceptable
+2464	Animalia	Mammalia	Ningaui	timealeyi	Pilbara ningaui	10.5			unknown	low
+2476	Animalia	Mammalia	Sarcophilus	harrisii	Tasmanian devil	6.5k	6126.8	13	captivity	acceptable
+3606	Animalia	Reptilia	Bitis	nasicornis	Rhinoceros viper	717		9.4	captivity	acceptable
+2622	Animalia	Mammalia	Ornithorhynchus	anatinus	Duck-billed platypus	1.25k	1030.3	22.6	captivity	acceptable
+920	Animalia	Aves	Spinus	tristis	American goldfinch	12.8	13.6	13	unknown	acceptable
+1883	Animalia	Holostei	Amia	calva	Bowfin	5.3625k		30	wild	acceptable
+1763	Animalia	Chondrichthyes	Carcharhinus	tilstoni	Australian blacktip shark	28,600		12	wild	acceptable
+2899	Animalia	Mammalia	Myodes	rufocanus	Gray red-backed vole	29.5	27.2		unknown	low
+3290	Animalia	Reptilia	Ophisaurus	ventralis	Eastern glass lizard	23.715		14.8	captivity	acceptable
+2685	Animalia	Mammalia	Callithrix	penicillata	Black-pencilled marmoset	307		15.4	captivity	acceptable
+3270	Animalia	Reptilia	Amphibolurus	nobbi	Nobbi				unknown	low
+4274	Animalia	Teleostei	Etheostoma	flabellare	Fantail darter			4	wild	acceptable
+548	Animalia	Aves	Numenius	tahitiensis	Bristle-thighed curlew	408.6		23.8	wild	acceptable
+1920	Animalia	Mammalia	Capra	hircus	Domestic goat	61,000		20.8	captivity	high
+2925	Animalia	Mammalia	Podomys	floridanus	Florida mouse	32	30.8	7.4	captivity	acceptable
+948	Animalia	Aves	Icterus	galbula	Baltimore oriole	32.9	37.5	14	unknown	acceptable
+213	Animalia	Ascidiacea	Ciona	intestinalis	Vase tunicate			2	wild	acceptable
+1452	Animalia	Aves	Thalassarche	impavida	Campbell albatross	3.44k		34.2	wild	acceptable
+4316	Animalia	Teleostei	Sander	vitreus	Walleye	11,000		29	wild	acceptable
+677	Animalia	Aves	Coturnix	coturnix	Common quail	96.5	97	14.6	wild	acceptable
+1799	Animalia	Chondrichthyes	Lamna	ditropis	Salmon shark	96,250		20	wild	acceptable
+4583	Animalia	Teleostei	Malapterurus	electricus	Electric catfish			10	wild	acceptable
+4666	Plantae	Magnoliopsida	Adansonia	digitata	African baobab			2500	wild	acceptable
+2566	Animalia	Mammalia	Bettongia	gaimardi	Tasmanian bettong	1.725k	1385		unknown	low
+2275	Animalia	Mammalia	Balaena	mysticetus	Bowhead whale	100M		211	wild	acceptable
+1169	Animalia	Aves	Ammodramus	savannarum	Grasshopper sparrow	17.6	13.8	9.1	wild	acceptable
+45	Animalia	Amphibia	Anaxyrus	terrestris	Southern toad	19.267	19.2	10	captivity	acceptable
+786	Animalia	Aves	Cardinalis	cardinalis	Northern cardinal	42.6	41	28.5	unknown	acceptable
+82	Animalia	Amphibia	Osteopilus	vastus	Hispaniola giant treefrog			6.6	captivity	questionable
+2637	Animalia	Mammalia	Equus	caballus	Horse	300,000		57	captivity	high
+3029	Animalia	Mammalia	Crateromys	heaneyi	Panay crateromys			8.8	captivity	acceptable
+3690	Animalia	Reptilia	Dermochelys	coriacea	Leatherback sea turtle	420,000		30	unknown	acceptable
+1886	Animalia	Holostei	Lepisosteus	platostomus	Shortnose gar	1.43k		20	wild	acceptable
+4502	Animalia	Teleostei	Sebastes	aleutianus	Rougheye rockfish	495		205	wild	acceptable
+4403	Animalia	Teleostei	Kathetostoma	giganteum	Flathead			20	wild	acceptable
+3365	Animalia	Reptilia	Lampropeltis	triangulum	Milk snake	950		22.6	captivity	acceptable
+1779	Animalia	Chondrichthyes	Mustelus	antarcticus	Gummy shark	16,940		16	wild	acceptable
+11	Animalia	Insecta	Drosophila	melanogaster	  Fruit fly 			0.3	captivity	acceptable
+2106	Animalia	Mammalia	Acinonyx	jubatus	Cheetah	53,500	38446.1	20.5	captivity	high
+4662	Animalia	Hexactinellida	Scolymastra	joubini	Hexactinellid sponge			15000	wild	questionable
+2978	Animalia	Mammalia	Thomomys	talpoides	Northern pocket gopher	104	97.6		unknown	low
+1807	Animalia	Chondrichthyes	Manta	birostris	Giant manta	1.65M		20	wild	acceptable
+2281	Animalia	Mammalia	Balaenoptera	musculus	Blue whale	136M		110	wild	acceptable
+2813	Animalia	Mammalia	Lemur	catta	Ring-tailed lemur	2.555k		37.3	captivity	high
+1142	Animalia	Aves	Seiurus	aurocapilla	Ovenbird	18.8	19	11	wild	acceptable
+2501	Animalia	Mammalia	Metachirus	nudicaudatus	Brown four-eyed opossum	440	336	3	captivity	acceptable
+1739	Animalia	Cephalaspidomorphi	Lampetra	planeri	European brook lamprey			7	wild	acceptable

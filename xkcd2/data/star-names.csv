@@ -1,0 +1,38 @@
+# Size and Lifespan -- step 2: star names
+#
+# Common names for stars that have one, after the IAU Working Group on Star Names.
+# Assembled for this exercise; not every star in stars.csv appears here.
+#
+# FORMAT   comma-separated, one header row. Lines starting with # are comments.
+#
+# COLUMNS
+#   designation   matches the designation column in stars.csv
+#   common_name   the name people actually use
+designation,common_name
+Sol,Sun
+Alpha Canis Majoris A,Sirius
+Alpha Carinae,Canopus
+Alpha Bootis,Arcturus
+Alpha Lyrae,Vega
+Alpha Aurigae A,Capella
+Beta Orionis,Rigel
+Alpha Canis Minoris A,Procyon
+Alpha Orionis,Betelgeuse
+Alpha Eridani,Achernar
+Alpha Aquilae ,Altair
+Alpha Tauri,Aldebaran
+Alpha Scorpii A,Antares
+Alpha Virginis A,Spica
+Beta Geminorum,Pollux
+Alpha Piscis Austrini ,Fomalhaut
+Alpha Cygni,Deneb
+Alpha Leonis A,Regulus
+Gamma Orionis,Bellatrix
+Epsilon Orionis,Alnilam
+Alpha Ursae Minoris Aa,Polaris
+Alpha Centauri A,Rigil Kentaurus
+Alpha Centauri C,Proxima Centauri
+Alpha Ursae Majoris A,Dubhe
+Beta Persei A,Algol
+Alpha Hydrae,Alphard
+Beta Leonis,Denebola
