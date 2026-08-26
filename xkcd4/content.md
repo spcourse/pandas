@@ -25,4 +25,4 @@ There is no test for this part — you choose the data yourself, so there is not
 
     checkpy xkcd
 
-once more anyway, to make sure your new code didn't break the earlier parts. If you skipped the particles, *Particles: read_pdg_data() exists* will still be failing, and that's fine.
+once more anyway, to make sure your new code didn't break the earlier parts. If you skipped the particles, `Particles: read_pdg_data() exists` will still be failing, and that's fine.

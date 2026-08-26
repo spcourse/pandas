@@ -72,4 +72,4 @@ Test your work with:
 
     checkpy xkcd
 
-**Not everything will pass yet.** `checkpy` always runs the tests for the whole assignment. After this part only *Particles: read_pdg_data() exists* should still be failing — it belongs to the next part. Everything starting with **Animals:**, **Stars:**, **Combining:** and **Plot:** should pass.
+**Not everything will pass yet.** `checkpy` always runs the tests for the whole assignment. After this part only `Particles: read_pdg_data() exists` should still be failing — it belongs to the next part. Everything starting with **Animals:**, **Stars:**, **Combining:** and **Plot:** should pass.

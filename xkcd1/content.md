@@ -103,4 +103,4 @@ Test your work with:
 
     checkpy xkcd
 
-**Not everything will pass yet.** `checkpy` always runs the tests for the whole assignment, so the tests for the parts you haven't written yet will fail. After this part, *Stars: read_star_data() exists*, *Particles: read_pdg_data() exists* and *Combining: combine_data() exists* should still be failing — they belong to the next parts. Everything starting with **Animals:** and **Plot:** should pass.
+**Not everything will pass yet.** `checkpy` always runs the tests for the whole assignment, so the tests for the parts you haven't written yet will fail. After this part `Stars: read_star_data() exists`, `Particles: read_pdg_data() exists` and `Combining: combine_data() exists` should still be failing. They belong to the next parts. Everything starting with **Animals:** and **Plot:** should pass.
