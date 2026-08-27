@@ -4,4 +4,4 @@ You can represent the same data in many different ways. This notebook focusses o
 
 Download the notebook [here](data/notebook-4-reshaping-aggregation.ipynb) (if the file doesn't download, use *right-click -> save file ...*).
 
-Save it in the same working directory you used for the previous notebooks.
+Save it in `~/Programming/SP/module8/`, the same folder you used for the third notebook.

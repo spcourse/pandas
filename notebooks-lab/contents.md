@@ -9,9 +9,28 @@ Download the introduction file below.
 
 [Right-click and save the notebook introduction file here](data/notebook.ipynb)
 
+## Where to save it
+
+Save the notebook in the module directory in your programming folder, just like your
+`.py` files. So this one belongs in `Programming/SP/module7/`:
+
+~~~text
+...
+└── Programming/
+    └── SP/
+        ├── ...
+        ├── module7/
+        │   └── notebook.ipynb
+        ├── module8/
+        └── ...
+~~~
+
+If you forgot how to create the appropriate folder, look back at:
+[your course folders](/python/en/installing/uv/sp/cli-exercise).
+
 ## Starting JupyterLab
 
-Open your terminal in the directory where you downloaded the file, make sure
+Open your terminal in that folder, make sure
 your `SP` environment is active, and run the command
 
     jupyter lab

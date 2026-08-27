@@ -4,4 +4,4 @@ This notebook zooms in further on data validation. Is the data actually what we 
 
 Download the notebook [here](data/notebook-3-quality-combining.ipynb) (if the file doesn't download, use *right-click -> save file ...*).
 
-Save it in the same working directory you used for the previous notebooks.
+Save it in the folder for this module, `~/Programming/SP/module8/`.
