@@ -8,4 +8,4 @@ This first notebook is about the absolut basics. You will see the two structures
 
 Download the notebook [here](data/notebook-1-foundations.ipynb) (if the file doesn't download, use *right-click -> save file ...*).
 
-Save it in the folder for this module, `~/Programming/SP/module7/` (see [your course folders](/python/en/installing/uv/sp/cli-exercise)).
+Save it in the folder for this module, `Programming/SP/module7/`.

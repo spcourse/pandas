@@ -25,8 +25,7 @@ Save the notebook in the module directory in your programming folder, just like 
         └── ...
 ~~~
 
-If you forgot how to create the appropriate folder, look back at:
-[your course folders](/python/en/installing/uv/sp/cli-exercise).
+If you forgot how to create the appropriate folder, look back at the installation instriuctions.
 
 ## Starting JupyterLab
 
